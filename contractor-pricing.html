@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Comparison - 60 On Kosmos</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .hero-section h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+        }
+        .hero-section .subheadline {
+            font-size: 1.3em;
+            margin: 10px 0 0 0;
+            opacity: 0.95;
+        }
+        .hero-section .price-highlight {
+            background: rgba(255,255,255,0.2);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0 0 0;
+            font-size: 1.1em;
+        }
+        .comparison-section {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin: 30px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #27ae60;
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+        }
+        .comparison-table th {
+            background: #34495e;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-size: 1.1em;
+        }
+        .comparison-table td {
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+            font-size: 1em;
+        }
+        .comparison-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .our-price {
+            background: #d4edda !important;
+            font-weight: bold;
+        }
+        .savings {
+            color: #27ae60;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .price-per-person {
+            background: #e8f8f5;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            border-left: 5px solid #27ae60;
+        }
+        .price-boxes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .price-box {
+            background: white;
+            border: 3px solid #27ae60;
+            border-radius: 10px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .price-box h3 {
+            color: #27ae60;
+            margin-top: 0;
+        }
+        .big-price {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #27ae60;
+            margin: 15px 0;
+        }
+        .small-text {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .savings-calculator {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        .savings-calculator h3 {
+            color: white;
+            margin-top: 0;
+        }
+        .savings-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 15px 0;
+            padding: 15px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 5px;
+        }
+        .cta-section {
+            background: #27ae60;
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        .cta-button {
+            background: white;
+            color: #27ae60;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background: #f8f9fa;
+        }
+        .testimonial {
+            background: #fff3cd;
+            border-left: 5px solid #f39c12;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .stars {
+            color: #f39c12;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero-section">
+        <h1>🏠 Contractor Accommodation in Bellville South</h1>
+        <div class="subheadline">
+            Self-Catering Guesthouse | Secure Parking | Free WiFi | 24/7 Security
+        </div>
+        <div class="price-highlight">
+            <strong>Monthly Rates from R12,720/room (2 people)</strong><br>
+            That's just <strong>R212 per person per night</strong> – HALF the cost of hotels!
+        </div>
+    </div>
+
+    <div class="comparison-section">
+        <h2>💰 Why Contractors Choose Us: The Real Cost Comparison</h2>
+        
+        <p style="text-align: center; font-size: 1.2em; color: #555; margin-bottom: 30px;">
+            Here's what you actually pay compared to staying in a hotel for your project:
+        </p>
+
+        <h3 style="color: #34495e; margin-top: 40px;">Solo Contractor (1 Person, 30 Days)</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Accommodation Option</th>
+                    <th>Per Night</th>
+                    <th>30 Days</th>
+                    <th>Your Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Road Lodge Bellville</td>
+                    <td>R650</td>
+                    <td>R19,500</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>City Lodge Bellville</td>
+                    <td>R850</td>
+                    <td>R25,500</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>Premier Hotel Bellville</td>
+                    <td>R750</td>
+                    <td>R22,500</td>
+                    <td>-</td>
+                </tr>
+                <tr class="our-price">
+                    <td><strong>60 On Kosmos (Private Room)</strong></td>
+                    <td><strong>R424</strong></td>
+                    <td><strong>R12,720</strong></td>
+                    <td class="savings">Save R6,780 - R12,780!</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 style="color: #34495e; margin-top: 40px;">Contractor Team (2 People Sharing, 30 Days)</h3>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Accommodation Option</th>
+                    <th>Per Person/Night</th>
+                    <th>2 People, 30 Days</th>
+                    <th>Your Savings</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Road Lodge (2 separate rooms)</td>
+                    <td>R650</td>
+                    <td>R39,000</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>City Lodge (2 separate rooms)</td>
+                    <td>R850</td>
+                    <td>R51,000</td>
+                    <td>-</td>
+                </tr>
+                <tr class="our-price">
+                    <td><strong>60 On Kosmos (Twin Room, 2 beds)</strong></td>
+                    <td><strong>R212</strong></td>
+                    <td><strong>R12,720</strong></td>
+                    <td class="savings">Save R26,280 - R38,280!</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="price-per-person">
+        <h2 style="color: #27ae60; margin-top: 0;">Per Person Breakdown (What You Actually Pay)</h2>
+        
+        <div class="price-boxes">
+            <div class="price-box">
+                <h3>Solo Contractor</h3>
+                <div class="big-price">R424</div>
+                <div>per night (private room)</div>
+                <div class="small-text" style="margin-top: 10px;">R12,720/month<br>All amenities included</div>
+            </div>
+            
+            <div class="price-box" style="border-color: #27ae60; background: #d4edda;">
+                <h3>2 People Sharing</h3>
+                <div class="big-price">R212</div>
+                <div>per person, per night</div>
+                <div class="small-text" style="margin-top: 10px;">R12,720/month total<br><strong>Best value for teams!</strong></div>
+            </div>
+            
+            <div class="price-box">
+                <h3>3 People (Triple Room)</h3>
+                <div class="big-price">R250</div>
+                <div>per person, per night</div>
+                <div class="small-text" style="margin-top: 10px;">R22,500/month total<br>Perfect for small crews</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="savings-calculator">
+        <h3>🧮 The REAL Savings: What Hotels Don't Tell You</h3>
+        <p>Beyond the room rate, here's what you save with self-catering facilities:</p>
+        
+        <div class="savings-row">
+            <span><strong>Hotel room rate difference</strong></span>
+            <span><strong>Save R6,780 - R12,780/month</strong></span>
+        </div>
+        
+        <div class="savings-row">
+            <span><strong>Meals (eating out vs. cooking):</strong><br>
+            Hotel: R150-200/day × 30 days = R6,000<br>
+            60 On Kosmos: R50-80/day × 30 days = R2,100</span>
+            <span><strong>Save R3,900/month</strong></span>
+        </div>
+        
+        <div class="savings-row">
+            <span><strong>Laundry:</strong><br>
+            Hotel laundry service: R50-80/load × 8 loads = R640<br>
+            60 On Kosmos: Hand wash (washing lines) = R0<br>
+            OR: Pickup/drop-off service = R30/load × 8 = R240<br>
+            OR: Kasdelvlei 24/7 laundromat = R35/load × 8 = R280</span>
+            <span><strong>Save R360 - R640/month</strong></span>
+        </div>
+        
+        <div class="savings-row" style="background: rgba(255,255,255,0.2); font-size: 1.2em; margin-top: 20px;">
+            <span><strong>TOTAL MONTHLY SAVINGS:</strong></span>
+            <span><strong>R11,040 - R17,320</strong></span>
+        </div>
+
+        <p style="margin-top: 20px; font-size: 1.1em; text-align: center;">
+            <strong>That's enough to cover your accommodation PLUS fuel costs!</strong>
+        </p>
+    </div>
+
+    <div class="comparison-section">
+        <h2>✨ What's Included at 60 On Kosmos</h2>
+        <p style="text-align: center; font-size: 1.1em; margin-bottom: 30px;">Everything you need, nothing you don't pay extra for:</p>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+            <div style="text-align: center; padding: 20px;">
+                <div style="font-size: 3em;">🍳</div>
+                <h4>Full Self-Catering Kitchen</h4>
+                <p>Stove, fridge, microwave, pots, pans, dishes, cutlery. Cook your own meals and save R3,900/month on food.</p>
+            </div>
+            
+            <div style="text-align: center; padding: 20px;">
+                <div style="font-size: 3em;">🚗</div>
+                <h4>Secure Parking</h4>
+                <p>Behind locked gates with CCTV. Your bakkie/vehicle is safe. No daily parking fees.</p>
+            </div>
+            
+            <div style="text-align: center; padding: 20px;">
+                <div style="font-size: 3em;">📶</div>
+                <h4>Free High-Speed WiFi</h4>
+                <p>Fast, reliable internet throughout. Submit timesheets, video call home, stream TV.</p>
+            </div>
+            
+            <div style="text-align: center; padding: 20px;">
+                <div style="font-size: 3em;">👔</div>
+                <h4>Laundry Solutions</h4>
+                <p>Washing lines + affordable pickup/drop-off service + 24/7 laundromat at Kasdelvlei Centre nearby. Much cheaper than hotel laundry!</p>
+            </div>
+            
+            <div style="text-align: center; padding: 20px;">
+                <div style="font-size: 3em;">🛡️</div>
+                <h4>24/7 Security</h4>
+                <p>CCTV monitoring, secure gates, well-lit property. Sleep soundly after a long workday.</p>
+            </div>
+            
+            <div style="text-align: center; padding: 20px;">
+                <div style="font-size: 3em;">💼</div>
+                <h4>Workspace & Desk</h4>
+                <p>Private desk in your room. Review plans, do paperwork, stay organized.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial">
+        <div class="stars">★★★★★ 4.9/5</div>
+        <p style="font-size: 1.1em; margin: 15px 0;">
+            <em>"Perfect setup for contractors. The kitchen saved me so much money, and having secure parking for my tools was essential. Clean, safe, and affordable - exactly what I needed for my 6-week project."</em>
+        </p>
+        <strong>- Recent Contractor Guest</strong>
+        <p style="margin-top: 10px; color: #666;">Based on 13 verified Google reviews</p>
+    </div>
+
+    <div class="comparison-section">
+        <h2>🏗️ Ideal For These Projects:</h2>
+        <ul style="font-size: 1.1em; line-height: 2;">
+            <li>✓ Construction projects in Bellville/Tygervalley area (2-12 weeks)</li>
+            <li>✓ Installation teams working at nearby industrial sites</li>
+            <li>✓ Maintenance contractors with recurring monthly visits</li>
+            <li>✓ Project managers overseeing work at Tygerberg/Bellville sites</li>
+            <li>✓ Tradespeople (electricians, plumbers, HVAC) on extended jobs</li>
+            <li>✓ Teams of 2-3 contractors sharing accommodation costs</li>
+        </ul>
+    </div>
+
+    <div class="comparison-section" style="background: #e8f8f5; border: 2px solid #27ae60;">
+        <h2>💼 Corporate & Team Bookings</h2>
+        <p style="text-align: center; font-size: 1.1em;">Booking for your crew? We make it easy:</p>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin: 30px 0;">
+            <div style="text-align: center;">
+                <strong>📄 Proper Invoicing</strong>
+                <p>VAT invoices for company accounts</p>
+            </div>
+            <div style="text-align: center;">
+                <strong>📅 Flexible Terms</strong>
+                <p>Understand project delays happen</p>
+            </div>
+            <div style="text-align: center;">
+                <strong>👥 Group Rates</strong>
+                <p>Special pricing for 3+ rooms</p>
+            </div>
+            <div style="text-align: center;">
+                <strong>⚡ Quick Booking</strong>
+                <p>Same-day check-in available</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <h2 style="color: white; margin-top: 0;">Ready to Save R11,000+ Per Month?</h2>
+        <p style="font-size: 1.2em; margin: 20px 0;">Book your contractor accommodation now. Limited rooms available.</p>
+        
+        <a href="tel:+27XXXXXXXXX" class="cta-button">📞 Call Now to Book</a>
+        <a href="https://wa.me/27XXXXXXXXX" class="cta-button">💬 WhatsApp Us</a>
+        
+        <p style="margin-top: 30px; font-size: 0.9em;">
+            🏠 60 Kosmos Street, Bellville South, Cape Town<br>
+            ⏰ Check-in: Flexible | Check-out: Flexible<br>
+            📍 5km from UWC | 8km from Tygerberg Hospital | 10km from Cape Town Airport
+        </p>
+    </div>
+
+</body>
+</html>
